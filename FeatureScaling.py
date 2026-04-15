@@ -11,4 +11,4 @@ df['wind_standardized'] = standard_scaler.fit_transform(df[['windspeed_10m']])
 # Display updated DataFrame
 df.head()
 
-print(df.columns)
+#print(df.columns)
